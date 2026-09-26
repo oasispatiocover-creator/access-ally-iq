@@ -1,0 +1,1234 @@
+{
+  "categories": [
+    {
+      "id": "everyday",
+      "label": "Everyday errands"
+    },
+    {
+      "id": "health",
+      "label": "Health & care"
+    },
+    {
+      "id": "food",
+      "label": "Food & drink"
+    },
+    {
+      "id": "transit",
+      "label": "Public transportation"
+    },
+    {
+      "id": "travel",
+      "label": "Travel & getting around"
+    },
+    {
+      "id": "fun",
+      "label": "Entertainment & outdoors"
+    },
+    {
+      "id": "school",
+      "label": "School & work"
+    },
+    {
+      "id": "community",
+      "label": "Community & public services"
+    },
+    {
+      "id": "exceptions",
+      "label": "Where the ADA doesn’t apply"
+    }
+  ],
+  "places": [
+    {
+      "id": "restaurants",
+      "cat": "food",
+      "icon": "food",
+      "name": "Restaurants & cafés",
+      "hint": "Health codes don’t override the ADA",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c) · FDA Food Code §6-501.115",
+      "exempt": false,
+      "can": [
+        "Allowed anywhere customers can go, including dining rooms and patios",
+        "Staff may ask the two questions if the task isn’t obvious"
+      ],
+      "cannot": [
+        "Refuse entry because of health code rules about animals",
+        "Seat the handler in a separate or worse area",
+        "Charge a pet fee or deposit"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The FDA Food Code, which health departments base their rules on, allows service animals in dining and sales areas. The business doesn’t have to let the dog sit on chairs or eat at the table, and staff do not have to feed or care for it. Kitchens and food prep areas stay off limits."
+        }
+      ]
+    },
+    {
+      "id": "stores",
+      "cat": "everyday",
+      "icon": "store",
+      "name": "Stores & groceries",
+      "hint": "Including where food is sold",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Allowed in all public areas of the store",
+        "Staff may ask the two questions if the task isn’t obvious"
+      ],
+      "cannot": [
+        "Ask for a certificate, ID card, or vest",
+        "Deny access because another shopper is allergic or afraid"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Service dogs generally stay on the floor. A small dog may be carried, but it shouldn’t ride in a cart’s seat or basket where food goes."
+        }
+      ]
+    },
+    {
+      "id": "hotels",
+      "cat": "travel",
+      "icon": "hotel",
+      "name": "Hotels & lodging",
+      "hint": "No pet fees, any room type",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)(8)",
+      "exempt": false,
+      "can": [
+        "Book any room type, not only “pet-friendly” rooms",
+        "Hotel may bill for actual damage, the same as any guest"
+      ],
+      "cannot": [
+        "Charge a pet deposit or cleaning fee",
+        "Require the dog to stay in a crate or be left in the room"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "If the dog is left alone in a room and disturbs others, that may count as not being under control."
+        }
+      ]
+    },
+    {
+      "id": "rides",
+      "cat": "transit",
+      "icon": "ride",
+      "name": "Taxis & rideshare",
+      "hint": "Drivers can’t refuse for allergies",
+      "law": "ADA Titles II & III",
+      "cite": "49 CFR §37.167(d)",
+      "exempt": false,
+      "can": [
+        "Ride in taxis, Uber, Lyft, buses, and trains",
+        "Report a refusal to the rideshare company, which bans drivers who deny service animals"
+      ],
+      "cannot": [
+        "Refuse the ride because of the dog",
+        "Charge extra for the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Uber and Lyft both have written service animal policies. A screenshot of the ride receipt helps if you file a report."
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "cat": "fun",
+      "icon": "events",
+      "name": "Concerts & events",
+      "hint": "Stadiums, festivals, fairs, theaters",
+      "law": "ADA Titles II & III",
+      "cite": "28 CFR §36.302(c) · 28 CFR §35.136 · DOJ ADA Service Animal FAQ",
+      "exempt": false,
+      "can": [
+        "Attend concerts, games, festivals, fairs, theaters, and theme parks. “No pets” and “no animals” policies don’t apply to service dogs",
+        "Security may screen you and check the dog’s gear the same way it checks bags",
+        "The venue may keep the dog out of animal exhibits where the animals are natural prey or predators of dogs, such as some livestock barns at a fair. The dog must be allowed everywhere else",
+        "Staff may ask the two questions if the dog’s task isn’t obvious"
+      ],
+      "cannot": [
+        "Make you buy a ticket or pay a fee for the dog",
+        "Require you to sit in a separate section because of the dog",
+        "Require you to call ahead or register the dog before the event",
+        "Turn you away because the event will be loud or crowded",
+        "Remove the dog because another guest is allergic or afraid"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The dog stays at your feet or under your seat and can’t block aisles or exits. Repeated barking or lunging in a crowd can count as out of control, so plan for noise, fireworks, and crowds. Many handlers bring dog ear protection and water, and check pavement heat at outdoor summer events. Calling the venue’s accessibility office ahead is optional, but it can get you a seat with more floor space. Emotional support animals aren’t covered."
+        }
+      ]
+    },
+    {
+      "id": "airlines",
+      "cat": "travel",
+      "icon": "plane",
+      "name": "Airlines",
+      "hint": "DOT forms and the 48-hour rule",
+      "law": "Air Carrier Access Act",
+      "cite": "14 CFR Part 382",
+      "exempt": false,
+      "can": [
+        "Airlines may require the DOT Service Animal Air Transportation Form. It’s the only form they can ask for",
+        "On flights of 8 hours or more, airlines may also require the DOT Relief Attestation Form, saying the dog won’t relieve itself or can do so safely",
+        "If you booked more than 48 hours ahead, the airline can ask for the forms up to 48 hours before departure",
+        "If you booked within 48 hours, you can hand in the forms at the gate",
+        "Up to 2 service dogs per passenger",
+        "Airlines may require a leash, harness, or tether",
+        "The dog must fit on your lap or in your foot space. If it doesn’t, the airline must first offer another seat in the same class, then other options such as a later flight"
+      ],
+      "cannot": [
+        "Require any documents other than the DOT forms",
+        "Charge a fee for a service dog",
+        "Make you check in at the counter because of the dog",
+        "Refuse without giving you the reason in writing"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "An airline can refuse a dog that is a direct threat, causes a significant disruption, or doesn’t meet health rules, including the destination’s entry rules. Psychiatric service dogs are treated like any other service dog. Emotional support animals and dogs in training fly as pets. If you missed the 48-hour deadline, the airline must still try to accommodate you if it won’t delay the flight.\n\n**International flights:** foreign airlines must follow these rules on flights to or from the U.S. Check your destination’s import rules months ahead, and see Traveling abroad in the More tab for coming home.\n\n**If there’s a problem:** ask for the airline’s Complaints Resolution Official (CRO). Every airline must have one available at the airport, in person or by phone. You can also call the DOT disability hotline at 1-800-778-4838."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://www.transportation.gov/sites/dot.gov/files/2024-09/Service%20Animal%20-%20Air%20Transportation%20Form%20FINAL%209.20.24.pdf",
+              "label": "DOT Air Transportation Form"
+            },
+            {
+              "url": "https://www.transportation.gov/sites/dot.gov/files/2024-09/Service%20Animals%20Relief%20-%20Final%209.20.24.pdf",
+              "label": "DOT Relief Attestation Form"
+            },
+            {
+              "url": "https://www.transportation.gov/airconsumer/complaints-alleging-discriminatory-treatment-against-disabled-travelers",
+              "label": "File a DOT complaint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "cat": "community",
+      "icon": "home",
+      "name": "Housing & rentals",
+      "hint": "Apartments, HOAs, condos",
+      "law": "Fair Housing Act",
+      "cite": "42 U.S.C. §3604(f) · 24 CFR §100.204 · HUD/DOJ Joint Statement (2004)",
+      "exempt": false,
+      "can": [
+        "Live in “no pets” housing, including apartments, condos, and HOA communities",
+        "Ask for the accommodation out loud or in writing. No special words are needed, and a family member can ask for you",
+        "If the disability or need isn’t obvious, the landlord may ask for reliable proof, such as a letter from a doctor, therapist, or other provider who knows you",
+        "Emotional support animals are covered here too",
+        "The landlord may charge for actual damage, the same way it does for any tenant"
+      ],
+      "cannot": [
+        "Charge pet rent, pet fees, or a pet deposit for an assistance animal",
+        "Ask for your diagnosis, medical records, or how severe your disability is",
+        "Deny you just because you didn’t use the landlord’s own form",
+        "Take so long to answer that the delay works as a denial",
+        "Refuse based on breed or size alone, without looking at your specific animal"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "A landlord can deny a request only if your specific animal is a real threat based on its actual behavior, or the request would be an undue burden. A few kinds of housing are exempt from the Fair Housing Act, such as an owner-occupied building with 4 or fewer units, but federally funded housing and state laws may still cover you. You have 1 year to file with HUD and 2 years to sue.\n\nSee **Asking your landlord** in the More tab for steps and a sample letter."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://www.hud.gov/fairhousing",
+              "label": "HUD Fair Housing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hospitals",
+      "cat": "health",
+      "icon": "hospital",
+      "name": "Hospitals & clinics",
+      "hint": "Most areas are open",
+      "law": "ADA Titles II & III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Allowed in exam rooms, patient rooms, cafeterias, and waiting areas",
+        "Hospital may exclude the dog from sterile areas"
+      ],
+      "cannot": [
+        "Exclude the dog from general patient areas",
+        "Require the handler to arrange care that isn’t needed"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Operating rooms and burn units are common exceptions because the dog could compromise a sterile environment."
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "cat": "school",
+      "icon": "work",
+      "name": "Workplace",
+      "hint": "Handled as an accommodation",
+      "law": "ADA Title I",
+      "cite": "29 CFR §1630.9 · EEOC · Job Accommodation Network",
+      "exempt": false,
+      "can": [
+        "Ask to bring your dog as a reasonable accommodation. Plain words are enough, and it doesn’t have to be in writing, though writing helps",
+        "If the disability isn’t obvious, the employer may ask for documentation of the disability and why you need the dog",
+        "The employer may ask for reasonable proof the dog is trained and won’t disrupt work, such as a trainer’s statement",
+        "A short trial period, often a few weeks, is common",
+        "An emotional support animal may also be considered, since workplace rules don’t use the service animal definition"
+      ],
+      "cannot": [
+        "Retaliate against you for asking",
+        "Refuse without talking it through with you (the “interactive process”)",
+        "Deny just because a coworker is allergic, without trying to accommodate both of you"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Workplace rules are different from stores and restaurants. The two-question rule doesn’t apply here. An employer can deny only if the dog would cause undue hardship or a direct threat. Employers with 15 or more employees are covered, and many state laws cover smaller ones. You have 180 days to file with the EEOC, or 300 days in most states that have their own agency.\n\nSee **Asking your employer** in the More tab for steps and a sample request."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://askjan.org/topics/servanim.cfm",
+              "label": "Job Accommodation Network: service animals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "cat": "school",
+      "icon": "school",
+      "name": "Schools & colleges",
+      "hint": "Public and private",
+      "law": "ADA Titles II & III",
+      "cite": "28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "Students with service dogs may attend classes and events",
+        "The school isn’t required to provide a handler for the dog"
+      ],
+      "cannot": [
+        "Require the family to buy extra insurance",
+        "Ask for proof of training or certification"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Young students may need an adult handler. The school can discuss this with the family."
+        }
+      ]
+    },
+    {
+      "id": "gyms",
+      "cat": "everyday",
+      "icon": "gym",
+      "name": "Gyms & fitness",
+      "hint": "You stay in charge of the dog",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog onto the gym floor, into classes, and into locker rooms",
+        "Use any equipment while the dog stays close and under control",
+        "Staff may ask the two questions"
+      ],
+      "cannot": [
+        "Require the dog to wait in a car, a crate, or a separate room",
+        "Charge a fee or make you sign a special waiver for the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Staff don’t have to watch or care for the dog. Keep it clear of moving equipment and walkways. Pools must allow the dog on the deck, but health rules can keep it out of the water."
+        }
+      ]
+    },
+    {
+      "id": "salons",
+      "cat": "everyday",
+      "icon": "store",
+      "name": "Salons, barbers & spas",
+      "hint": "Includes nail and massage studios",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog into the waiting area and to your chair or table",
+        "The dog may lie next to you during the service"
+      ],
+      "cannot": [
+        "Refuse the appointment because of the dog",
+        "Make the dog wait outside or in a car"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "If a spot is tight, such as a small treatment room, work out with staff where the dog can lie so it isn’t in the way. A true sterile or hazard area can have limits, but that’s rare in a salon."
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "cat": "everyday",
+      "icon": "gov",
+      "name": "Government offices",
+      "hint": "DMV, city hall, social services",
+      "law": "ADA Title II",
+      "cite": "28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "Bring the dog into any area open to the public, including service counters and waiting rooms",
+        "Staff may ask the two questions"
+      ],
+      "cannot": [
+        "Ask for a service dog license, ID, or proof of training",
+        "Make you leave the dog outside to get service"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "State and local government offices follow ADA Title II, which uses the same service dog rules as businesses. Some states also require a normal dog license, which applies to all dogs."
+        }
+      ]
+    },
+    {
+      "id": "federal",
+      "cat": "everyday",
+      "icon": "gov",
+      "name": "Post offices & federal buildings",
+      "hint": "Different law, same idea",
+      "law": "Rehabilitation Act §504",
+      "cite": "29 U.S.C. §794",
+      "exempt": false,
+      "can": [
+        "Bring the dog into post offices, Social Security offices, VA facilities, and other federal buildings open to the public"
+      ],
+      "cannot": [
+        "Deny service because of a service dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Federal agencies aren’t covered by the ADA. They follow Section 504 of the Rehabilitation Act, which gives similar protection. Security screening at federal buildings still applies to you and the dog’s gear."
+        }
+      ]
+    },
+    {
+      "id": "laundromats",
+      "cat": "everyday",
+      "icon": "store",
+      "name": "Laundromats, banks & gas stations",
+      "hint": "Any business open to the public",
+      "law": "ADA Title III",
+      "cite": "42 U.S.C. §12181(7)(F)",
+      "exempt": false,
+      "can": [
+        "Bring the dog into banks, laundromats, dry cleaners, gas station stores, repair shops, and similar businesses"
+      ],
+      "cannot": [
+        "Point to a “no dogs” sign as a reason to refuse",
+        "Charge a fee for the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The ADA lists these “service establishments” by name. If a business is open to the public, the same two-question rule applies."
+        }
+      ]
+    },
+    {
+      "id": "doctors",
+      "cat": "health",
+      "icon": "hospital",
+      "name": "Doctors, dentists & pharmacies",
+      "hint": "Includes urgent care and labs",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog into waiting rooms, exam rooms, and pharmacy lines",
+        "Ask staff to let the dog stay with you during a procedure when it’s safe"
+      ],
+      "cannot": [
+        "Require you to leave the dog in the car",
+        "Ask about your disability beyond what’s needed for your medical care"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Your doctor can ask about your health for your treatment. That’s separate from the two service dog questions. Sterile rooms, such as some surgery areas, can exclude the dog."
+        }
+      ]
+    },
+    {
+      "id": "vets",
+      "cat": "health",
+      "icon": "paw",
+      "name": "Vet clinics & pet stores",
+      "hint": "Other animals nearby",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring your service dog when you take another pet to the vet",
+        "Bring your service dog into pet stores and groomers as a customer"
+      ],
+      "cannot": [
+        "Refuse because the business is worried about other animals, unless your dog is out of control"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "These places are full of distractions and untrained pets that may lunge at your dog. Keep your dog close, and ask for a quieter spot in the waiting room if needed."
+        }
+      ]
+    },
+    {
+      "id": "nursing",
+      "cat": "health",
+      "icon": "heart",
+      "name": "Nursing homes & assisted living",
+      "hint": "Visitors and residents",
+      "law": "ADA Title III · Fair Housing Act",
+      "cite": "28 CFR §36.302(c) · 42 U.S.C. §3604(f)",
+      "exempt": false,
+      "can": [
+        "Visitors may bring a service dog into common areas and a resident’s room",
+        "Residents may keep a service dog, and often an emotional support animal, as a housing accommodation"
+      ],
+      "cannot": [
+        "Charge a pet deposit or pet rent for a resident’s assistance animal",
+        "Ban a visitor’s service dog because other residents have allergies"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "A resident usually needs to be able to care for the dog, or arrange care. The facility doesn’t have to provide that care. Some units, such as memory care, may have added safety rules."
+        }
+      ]
+    },
+    {
+      "id": "bars",
+      "cat": "food",
+      "icon": "drink",
+      "name": "Bars, breweries & wineries",
+      "hint": "Liquor rules don’t override the ADA",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog into bars, taprooms, tasting rooms, and lounges",
+        "Sit at the bar or a table with the dog on the floor"
+      ],
+      "cannot": [
+        "Refuse entry because of liquor license or health code rules on animals",
+        "Seat you only on the patio because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Brewing and production floors are usually closed to all customers, and they stay closed to the dog too. Crowded, loud bars can stress a dog, so watch for signs your dog needs a break."
+        }
+      ]
+    },
+    {
+      "id": "buffets",
+      "cat": "food",
+      "icon": "food",
+      "name": "Buffets & salad bars",
+      "hint": "Dog may go through the line",
+      "law": "ADA Title III",
+      "cite": "DOJ ADA Service Animal FAQ",
+      "exempt": false,
+      "can": [
+        "Walk your dog through buffet lines, salad bars, and self-serve food lines",
+        "In shelters and dorms, the dog may enter shared kitchens"
+      ],
+      "cannot": [
+        "Make you leave the dog at the table while you get food"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The Justice Department answers this directly: service animals must be allowed to accompany their handlers through self-service food lines. Keep the dog’s nose away from the food."
+        }
+      ]
+    },
+    {
+      "id": "foodtrucks",
+      "cat": "food",
+      "icon": "food",
+      "name": "Food trucks & walk-up windows",
+      "hint": "Coffee stands, ice cream shops",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Order at food trucks, walk-up windows, and kiosks with your dog",
+        "Use outdoor seating areas the business provides"
+      ],
+      "cannot": [
+        "Refuse to serve you because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Inside the truck itself is a kitchen, which is closed to all customers. Everything on the customer side is covered."
+        }
+      ]
+    },
+    {
+      "id": "airports",
+      "cat": "travel",
+      "icon": "plane",
+      "name": "Airports & TSA",
+      "hint": "Screening and relief areas",
+      "law": "ADA Title II · ACAA",
+      "cite": "49 CFR §27.71(h) · 14 CFR §382.51(a)(5) · TSA screening policy",
+      "exempt": false,
+      "can": [
+        "Go through security with the dog. TSA may inspect the dog and its gear, often with a visual check or pat-down",
+        "Use a service animal relief area. Airports with at least 10,000 passenger boardings a year must have one in each terminal, usually past security"
+      ],
+      "cannot": [
+        "TSA can’t separate you from the dog during screening",
+        "Airport shops and restaurants can’t refuse you, since they’re covered by the ADA"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Tell the TSA officer you have a service dog. The officer will explain how you and the dog go through the checkpoint, and you keep hold of the leash. TSA Cares can arrange extra help if you call ahead."
+        }
+      ]
+    },
+    {
+      "id": "transit",
+      "cat": "transit",
+      "icon": "train",
+      "name": "City buses, light rail & subways",
+      "hint": "Local public transit",
+      "law": "ADA Title II · DOT rules",
+      "cite": "49 CFR §37.3 · §37.167(d) · §37.173",
+      "exempt": false,
+      "can": [
+        "Ride any bus, streetcar, light rail, subway, commuter train, or ferry run by a public transit agency",
+        "Use stations, platforms, elevators, and waiting areas with the dog",
+        "The driver or operator may ask if the animal is a service animal and what tasks it performs",
+        "Sit where the dog can lie at your feet without blocking the aisle or doors"
+      ],
+      "cannot": [
+        "Ask for a card, ID, or any documentation for the dog",
+        "Require the dog to ride in a carrier or muzzle",
+        "Charge a fare for the dog",
+        "Refuse to let you board because another rider is allergic or afraid"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Transit agencies follow Department of Transportation rules, which define a service animal as any animal individually trained to do tasks for a person with a disability. That definition isn’t limited to dogs. The dog can be removed if it is out of control or a direct threat, such as biting. Transit agencies must train drivers to treat riders with disabilities respectfully. In a 2014 case, the FTA found a Virginia transit agency broke the rules by demanding a “special card” from a rider with a diabetic alert dog and ordering the rider off the bus."
+        }
+      ]
+    },
+    {
+      "id": "paratransit",
+      "cat": "transit",
+      "icon": "ride",
+      "name": "Paratransit & Dial-a-Ride",
+      "hint": "Door-to-door rides for riders with disabilities",
+      "law": "ADA Title II · DOT rules",
+      "cite": "49 CFR §37.123 · §37.167(d)",
+      "exempt": false,
+      "can": [
+        "Bring your service dog on every paratransit ride",
+        "Mention the dog when you book, so the driver can plan space in the vehicle"
+      ],
+      "cannot": [
+        "Refuse a trip because of the service dog",
+        "Require the dog to ride in a carrier",
+        "Charge a fare for the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Paratransit is the shared-ride service transit agencies must offer to people whose disabilities keep them from using regular buses or trains. Emotional support animals aren’t covered. In 2011, the FTA sided with Valley Metro in Phoenix when it required an untrained emotional support dog on Dial-a-Ride to ride in a carrier. The owner admitted the dog had no task training."
+        }
+      ]
+    },
+    {
+      "id": "amtrak",
+      "cat": "transit",
+      "icon": "train",
+      "name": "Amtrak & long-distance trains",
+      "hint": "Relief stops matter",
+      "law": "ADA · DOT rules",
+      "cite": "49 CFR §37.167(d) · Amtrak service animal policy",
+      "exempt": false,
+      "can": [
+        "Bring a service dog in all passenger areas, including coach, sleeper cars, and the café car",
+        "Walk the dog at station stops when the schedule allows. Stay close to the train and get back on promptly",
+        "Staff may ask what task the dog performs"
+      ],
+      "cannot": [
+        "Require documentation or certification",
+        "Charge a fare for the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The dog must be housebroken and stay under your seat or at your feet. Litter boxes, pee pads, and diapers aren’t allowed on board, so plan relief stops on long routes. Tell the conductor when you board if you’ll need to walk the dog. Amtrak doesn’t allow service dogs in training. Emotional support animals follow Amtrak’s pet rules, which allow small pets in carriers on many routes for a fee. Amtrak: 1-800-USA-RAIL."
+        }
+      ]
+    },
+    {
+      "id": "intercity",
+      "cat": "transit",
+      "icon": "ride",
+      "name": "Greyhound & intercity buses",
+      "hint": "Dog stays at your feet",
+      "law": "ADA Title III · DOT rules",
+      "cite": "49 CFR Part 37, Subpart H · Greyhound policy",
+      "exempt": false,
+      "can": [
+        "Ride Greyhound, FlixBus, Megabus, and other intercity buses with a service dog",
+        "Get help from Greyhound’s disability assistance line: 1-800-752-4841, TTY 1-800-345-3109"
+      ],
+      "cannot": [
+        "Charge a fare for the dog",
+        "Refuse to sell you a ticket or let you board because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Greyhound requires the dog to stay on the floor in the space around your feet, not on a seat, in your lap, or in the aisle. Plan for rest stops on long trips. Greyhound’s ADA compliance team takes complaints at ada.support@greyhound.com and says it usually finishes investigating within 30 days."
+        }
+      ]
+    },
+    {
+      "id": "cruises",
+      "cat": "travel",
+      "icon": "ship",
+      "name": "Cruise ships",
+      "hint": "Ports add their own rules",
+      "law": "ADA Title III",
+      "cite": "Spector v. Norwegian Cruise Line (2005)",
+      "exempt": false,
+      "can": [
+        "Bring a service dog on cruises from U.S. ports, at least while the ship is in U.S. waters. The Supreme Court held that the ADA applies to foreign-flagged ships there",
+        "Ask the cruise line for a relief area, which lines usually set up on a deck"
+      ],
+      "cannot": [
+        "Charge a fee for the dog",
+        "Refuse the booking because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Most cruise lines ask for notice weeks ahead. That’s mostly because each foreign port has its own import rules, such as rabies tests and health certificates. If you can’t meet a port’s rules, the dog may have to stay on board there. Check each port early."
+        }
+      ]
+    },
+    {
+      "id": "rentals",
+      "cat": "travel",
+      "icon": "key",
+      "name": "Airbnb & vacation rentals",
+      "hint": "Platform rules plus the ADA",
+      "law": "Platform policy · ADA Title III",
+      "cite": "42 U.S.C. §12181(7)(A)",
+      "exempt": false,
+      "can": [
+        "Book with a service dog. Airbnb and Vrbo require hosts to accept service animals. Airbnb allows rare exceptions it approves in advance, such as a serious health risk to the host",
+        "Report a host who refuses to the platform, which can remove the host",
+        "Both platforms let hosts charge for real damage"
+      ],
+      "cannot": [
+        "Charge a pet fee or a higher deposit for a service dog under the platforms’ policies"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "A rental run like a hotel is covered by the ADA. A home where the owner lives and rents out five or fewer rooms is exempt from the ADA, so the platform’s policy is what protects you there."
+        }
+      ]
+    },
+    {
+      "id": "cars",
+      "cat": "travel",
+      "icon": "ride",
+      "name": "Rental cars",
+      "hint": "No dog fees",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)(8)",
+      "exempt": false,
+      "can": [
+        "Rent any car class with a service dog",
+        "The company may charge for real damage the dog causes, the same as for any customer"
+      ],
+      "cannot": [
+        "Charge a pet fee, or charge you to clean up normal dog hair"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Use a seat cover and vacuum before returning the car to avoid a cleaning dispute. Take photos at pickup and drop-off."
+        }
+      ]
+    },
+    {
+      "id": "campgrounds",
+      "cat": "travel",
+      "icon": "tree",
+      "name": "RV parks & campgrounds",
+      "hint": "Private and public",
+      "law": "ADA Titles II & III",
+      "cite": "28 CFR §35.136 · §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog to campsites, cabins, lodges, and camp stores",
+        "Stay in “no pets” cabins and sections"
+      ],
+      "cannot": [
+        "Charge a pet fee for a service dog",
+        "Put you only in the pet section"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Local leash laws still apply. Some wildlife areas may be closed to all dogs for safety."
+        }
+      ]
+    },
+    {
+      "id": "parks",
+      "cat": "fun",
+      "icon": "tree",
+      "name": "National & state parks, beaches",
+      "hint": "Trails where pets are banned",
+      "law": "ADA Title II · Rehabilitation Act",
+      "cite": "28 CFR §35.136 · 29 U.S.C. §794",
+      "exempt": false,
+      "can": [
+        "Take the dog on trails, beaches, visitor centers, and shuttles where pets aren’t allowed",
+        "Staff may ask the two questions"
+      ],
+      "cannot": [
+        "Treat a service dog like a pet under “no pets on trails” rules"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The National Park Service says service dogs may go anywhere visitors can go. A park may limit a dog in a specific spot only for a real safety reason, so ask a ranger if you’re unsure. Emotional support animals and dogs in training follow pet rules. Carry water and check the ground temperature. Pavement and sand can burn paws in summer."
+        }
+      ]
+    },
+    {
+      "id": "theaters",
+      "cat": "fun",
+      "icon": "film",
+      "name": "Movie theaters & bowling alleys",
+      "hint": "Arcades, escape rooms, mini golf",
+      "law": "ADA Title III",
+      "cite": "28 CFR §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog to your seat or lane",
+        "The dog lies at your feet or in front of you"
+      ],
+      "cannot": [
+        "Seat you in a separate section because of the dog",
+        "Charge extra"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Repeated barking or whining during a movie can count as out of control. Loud surround sound can bother some dogs, so an aisle seat helps if you need to step out."
+        }
+      ]
+    },
+    {
+      "id": "zoos",
+      "cat": "fun",
+      "icon": "paw",
+      "name": "Zoos, aquariums & farms",
+      "hint": "Some exhibits can be off limits",
+      "law": "ADA Titles II & III",
+      "cite": "DOJ ADA Service Animal FAQ",
+      "exempt": false,
+      "can": [
+        "Bring the dog through most of the zoo, including paths, restaurants, and shops",
+        "Ask staff for another route around closed areas"
+      ],
+      "cannot": [
+        "Ban service dogs from the whole zoo"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The Justice Department says zoos may keep service dogs out of areas where the animals on display are natural prey or predators of dogs, because a dog there would upset them. The dog must be allowed everywhere else. Petting zoos and farm exhibits may qualify if the animals there are prey to dogs, so ask staff."
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "cat": "fun",
+      "icon": "gov",
+      "name": "Museums & libraries",
+      "hint": "Public and private",
+      "law": "ADA Titles II & III",
+      "cite": "28 CFR §35.136 · §36.302(c)",
+      "exempt": false,
+      "can": [
+        "Bring the dog through galleries, reading rooms, study rooms, and events"
+      ],
+      "cannot": [
+        "Refuse because of valuable collections or quiet rules"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "A dog that barks repeatedly in a quiet reading room can be asked to leave. A museum can keep all visitors out of some areas, such as a collections lab, and that includes the dog."
+        }
+      ]
+    },
+    {
+      "id": "pools",
+      "cat": "fun",
+      "icon": "pool",
+      "name": "Pools & water parks",
+      "hint": "Deck yes, water usually no",
+      "law": "ADA Titles II & III",
+      "cite": "DOJ ADA Service Animal FAQ",
+      "exempt": false,
+      "can": [
+        "Bring the dog onto the pool deck, into the park, and to lounge areas",
+        "Have the dog wait at the edge while you swim"
+      ],
+      "cannot": [
+        "Keep you out of the park or pool area because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The Justice Department says the ADA doesn’t override health rules that keep dogs out of the water itself, but service animals must be allowed on the deck and other areas open to the public. Hot decks can burn paws."
+        }
+      ]
+    },
+    {
+      "id": "casinos",
+      "cat": "fun",
+      "icon": "events",
+      "name": "Casinos",
+      "hint": "Tribal casinos are different",
+      "law": "ADA Title III · tribal law",
+      "cite": "42 U.S.C. §12181(7)",
+      "exempt": false,
+      "can": [
+        "Bring the dog onto the gaming floor, restaurants, shows, and hotel at commercial casinos"
+      ],
+      "cannot": [
+        "Commercial casinos can’t refuse you because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Many casinos are owned by Native American tribes. The ADA applies to tribal casinos, but tribal immunity usually blocks private lawsuits, so you may not be able to sue. The Justice Department can still act. Most tribal casinos welcome service dogs under their own policies, so ask for the written policy."
+        }
+      ]
+    },
+    {
+      "id": "interviews",
+      "cat": "school",
+      "icon": "work",
+      "name": "Job interviews",
+      "hint": "Applicants are protected",
+      "law": "ADA Title I",
+      "cite": "42 U.S.C. §12112",
+      "exempt": false,
+      "can": [
+        "Ask to bring the dog to the interview as a reasonable accommodation"
+      ],
+      "cannot": [
+        "Refuse to hire you because of the dog",
+        "Ask about your disability or medical history in general interview questions"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Employers with 15 or more employees are covered, and some state laws cover smaller ones. If you ask for an accommodation and your disability isn’t obvious, the employer may ask for a note about your disability and needs. Asking ahead also prevents a confused front desk."
+        }
+      ]
+    },
+    {
+      "id": "dorms",
+      "cat": "school",
+      "icon": "home",
+      "name": "College dorms",
+      "hint": "Emotional support animals too",
+      "law": "Fair Housing Act · ADA",
+      "cite": "42 U.S.C. §3604(f) · 28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "Keep a service dog in dorm housing. Emotional support animals are also allowed in dorms as a housing accommodation",
+        "Bring a service dog to classes, dining halls, and campus events"
+      ],
+      "cannot": [
+        "Charge a pet fee or deposit",
+        "Ask for more than reasonable documentation for an emotional support animal"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Emotional support animals are allowed in the dorm but not in classrooms or dining halls. Tell your school’s disability services office early so housing is set up before move-in."
+        }
+      ]
+    },
+    {
+      "id": "daycare",
+      "cat": "school",
+      "icon": "school",
+      "name": "Daycare & after-school",
+      "hint": "For a child or a parent",
+      "law": "ADA Titles II & III",
+      "cite": "28 CFR §36.302(c) · DOJ Child Care Centers and the ADA",
+      "exempt": false,
+      "can": [
+        "A child’s service dog may attend when the child can handle it, or with an adult handler",
+        "A parent may bring their own service dog for drop-off and pickup"
+      ],
+      "cannot": [
+        "Refuse to enroll a child because of the dog",
+        "Charge extra for the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "The center doesn’t have to provide a handler or care for the dog. A center run by a church or other religious group is exempt from the ADA. A separate business that rents space from a church is covered."
+        }
+      ]
+    },
+    {
+      "id": "fieldtrips",
+      "cat": "school",
+      "icon": "school",
+      "name": "Field trips & school buses",
+      "hint": "The dog goes too",
+      "law": "ADA Title II · Section 504",
+      "cite": "28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "A student’s service dog may ride the school bus and go on field trips",
+        "Schools may discuss handler plans for younger students"
+      ],
+      "cannot": [
+        "Require the family to come along as the dog’s handler, if the student can handle the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Put the dog in the student’s IEP or 504 plan so bus drivers and trip staff know ahead of time."
+        }
+      ]
+    },
+    {
+      "id": "shelters",
+      "cat": "community",
+      "icon": "home",
+      "name": "Homeless & domestic violence shelters",
+      "hint": "Shared kitchens included",
+      "law": "ADA · Fair Housing Act",
+      "cite": "DOJ ADA Service Animal FAQ",
+      "exempt": false,
+      "can": [
+        "Stay at the shelter with a service dog",
+        "The dog may enter shared kitchens and food areas with you"
+      ],
+      "cannot": [
+        "Turn you away because the shelter has a “no pets” rule",
+        "Separate you from the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Many domestic violence shelters also accept emotional support animals or pets, or partner with programs that board them. Ask the hotline."
+        }
+      ]
+    },
+    {
+      "id": "courts",
+      "cat": "community",
+      "icon": "gov",
+      "name": "Courts & jails",
+      "hint": "Visitors, jurors, parties",
+      "law": "ADA Title II",
+      "cite": "28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "Bring the dog to courtrooms for hearings, jury duty, and as a witness or party",
+        "Visitors may bring a service dog to jail visiting areas"
+      ],
+      "cannot": [
+        "Keep you from court or jury duty because of the dog"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Secure areas of a jail can have limits for safety. Call the court’s ADA coordinator ahead if you can, especially for jury duty."
+        }
+      ]
+    },
+    {
+      "id": "voting",
+      "cat": "community",
+      "icon": "ballot",
+      "name": "Polling places",
+      "hint": "Vote with your dog",
+      "law": "ADA Title II",
+      "cite": "28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "Bring the dog into the polling place and to the voting booth"
+      ],
+      "cannot": [
+        "Poll workers can’t turn you away or make the dog wait outside"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "If your polling place is in a church or other private building, the election office is still responsible for following the ADA there. That includes letting your service dog in. If you’re refused, report it to your local election office."
+        }
+      ]
+    },
+    {
+      "id": "emergencies",
+      "cat": "community",
+      "icon": "alert",
+      "name": "Emergencies & evacuations",
+      "hint": "Shelters must take service dogs",
+      "law": "ADA Title II",
+      "cite": "28 CFR §35.136",
+      "exempt": false,
+      "can": [
+        "Bring the dog to emergency shelters, cooling centers, and on evacuation buses",
+        "Ask first responders to keep the dog with you"
+      ],
+      "cannot": [
+        "Separate you from your service dog at an emergency shelter",
+        "Send the dog to a pet shelter area"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Keep a go-bag for the dog with food, water, meds, and vaccination records. Pets are sent to separate pet shelters, but service dogs stay with their handlers."
+        }
+      ]
+    },
+    {
+      "id": "churches",
+      "cat": "exceptions",
+      "icon": "heart",
+      "name": "Churches & religious groups",
+      "hint": "Exempt from the ADA",
+      "law": "Exempt from ADA",
+      "cite": "42 U.S.C. §12187",
+      "exempt": true,
+      "can": [
+        "Many churches, mosques, synagogues, and temples welcome service dogs anyway",
+        "Some state laws may still apply"
+      ],
+      "cannot": [
+        "The ADA doesn’t require religious organizations to allow service dogs, even at their schools, daycares, or events"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "This is one of the biggest surprises for handlers. Ask ahead. If the religious group rents space to a separate business open to the public, that business is still covered."
+        }
+      ]
+    },
+    {
+      "id": "clubs",
+      "cat": "exceptions",
+      "icon": "lock",
+      "name": "Private clubs",
+      "hint": "Country clubs, lodges",
+      "law": "Exempt from ADA",
+      "cite": "42 U.S.C. §12187",
+      "exempt": true,
+      "can": [
+        "Truly private, members-only clubs may set their own rules"
+      ],
+      "cannot": [
+        "When a club opens its space to the public, such as a public restaurant or a wedding rental, those parts are covered"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "A place that calls itself a club but lets anyone in usually doesn’t count as private."
+        }
+      ]
+    },
+    {
+      "id": "private",
+      "cat": "exceptions",
+      "icon": "home",
+      "name": "Private homes & cars",
+      "hint": "The owner decides",
+      "law": "Not covered by ADA",
+      "cite": "42 U.S.C. §12181(7)",
+      "exempt": true,
+      "can": [
+        "Homeowners and private drivers can say no to a service dog in their home or personal car"
+      ],
+      "cannot": [
+        "This changes if the home is also a business open to the public, such as a home daycare or a rideshare car"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "Rideshare companies like Uber and Lyft are covered by the ADA, and their rules require drivers to take service dogs. A friend giving you a ride isn’t covered."
+        }
+      ]
+    },
+    {
+      "id": "parties",
+      "cat": "exceptions",
+      "icon": "events",
+      "name": "Weddings & private parties",
+      "hint": "Depends on the venue",
+      "law": "Depends on the venue",
+      "cite": "42 U.S.C. §12181(7)",
+      "exempt": true,
+      "can": [
+        "A private party at someone’s home follows the host’s rules",
+        "A venue open to the public, such as a hotel ballroom, restaurant, or event hall, is covered by the ADA"
+      ],
+      "cannot": [
+        "The venue itself can’t refuse your service dog because of its own no-animal rule"
+      ],
+      "notes": [
+        {
+          "type": "p",
+          "text": "When a private host at a rented venue objects, it’s a gray area. Talk with the host and the venue before the event. Religious venues are exempt."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "rows": [
+    [
+      "Service dog",
+      "y",
+      "Yes",
+      "y",
+      "Yes",
+      "y",
+      "Yes",
+      "m",
+      "Case by case"
+    ],
+    [
+      "Psychiatric service dog",
+      "y",
+      "Yes",
+      "y",
+      "Yes",
+      "y",
+      "Yes",
+      "m",
+      "Case by case"
+    ],
+    [
+      "Miniature horse",
+      "m",
+      "Usually",
+      "y",
+      "Yes",
+      "x",
+      "Airline’s choice",
+      "m",
+      "Case by case"
+    ],
+    [
+      "Service dog in training",
+      "m",
+      "State law",
+      "m",
+      "Depends",
+      "x",
+      "Pet rules",
+      "m",
+      "Case by case"
+    ],
+    [
+      "Emotional support animal",
+      "x",
+      "No",
+      "y",
+      "Yes",
+      "x",
+      "Pet rules",
+      "m",
+      "Case by case"
+    ],
+    [
+      "Therapy animal",
+      "x",
+      "No",
+      "x",
+      "No",
+      "x",
+      "Pet rules",
+      "x",
+      "No"
+    ],
+    [
+      "Other species (cat, bird, monkey)",
+      "x",
+      "No",
+      "m",
+      "If support animal",
+      "x",
+      "Pet rules",
+      "m",
+      "Case by case"
+    ],
+    [
+      "Police & search dogs",
+      "m",
+      "Agency rules",
+      "x",
+      "—",
+      "m",
+      "Agency rules",
+      "y",
+      "Their job"
+    ]
+  ],
+  "jobs": [
+    [
+      "Guide dogs",
+      "Blind or low vision",
+      "Lead around obstacles, stop at curbs and stairs, find doors and seats."
+    ],
+    [
+      "Hearing dogs",
+      "Deaf or hard of hearing",
+      "Alert to doorbells, alarms, a crying baby, or someone calling the handler’s name."
+    ],
+    [
+      "Mobility dogs",
+      "Wheelchair users, balance or strength conditions",
+      "Pick up dropped items, open doors, brace for balance, pull a wheelchair."
+    ],
+    [
+      "Medical alert dogs",
+      "Diabetes, seizures, POTS, heart conditions",
+      "Alert before blood sugar drops or a seizure or fainting episode, so the handler can sit, take medicine, or get safe."
+    ],
+    [
+      "Medical response dogs",
+      "Seizures, fainting, severe allergies",
+      "Fetch medicine or a phone, press an alert button, get help, stay with the handler."
+    ],
+    [
+      "Psychiatric service dogs",
+      "PTSD, anxiety, depression, bipolar disorder",
+      "Interrupt panic attacks or self-harm, wake from nightmares, remind about medicine, create space in crowds."
+    ],
+    [
+      "Autism service dogs",
+      "Autism, often for children",
+      "Stop a child from running into danger, calm meltdowns with pressure, keep a child from wandering."
+    ],
+    [
+      "Allergen detection dogs",
+      "Life-threatening food allergies",
+      "Sniff out peanuts, gluten, or other allergens in food or on surfaces."
+    ]
+  ]
+}

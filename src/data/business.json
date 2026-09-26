@@ -1,0 +1,168 @@
+{
+  "quiz": [
+    [
+      "A customer’s dog has no vest. Can you ask them to leave for that reason?",
+      [
+        "Yes, service dogs must be marked",
+        "No, a vest isn’t required",
+        "Only if the dog is large"
+      ],
+      1,
+      "Federal law doesn’t require a vest, tag, or harness."
+    ],
+    [
+      "Which question are you allowed to ask?",
+      [
+        "What’s your disability?",
+        "Can I see its certification?",
+        "What task is the dog trained to perform?"
+      ],
+      2,
+      "You may ask only if it’s a service animal required because of a disability, and what task it’s trained to do."
+    ],
+    [
+      "A customer says the dog is an emotional support animal. What applies?",
+      [
+        "Your normal pet policy",
+        "You must let it in",
+        "Ask for a doctor’s note"
+      ],
+      0,
+      "Emotional support animals aren’t service animals under the ADA."
+    ],
+    [
+      "Another customer is allergic. What should you do?",
+      [
+        "Ask the handler to leave",
+        "Offer the allergic customer a different table",
+        "Make the dog wait outside"
+      ],
+      1,
+      "Allergies aren’t a reason to deny access. Try to give both people space."
+    ],
+    [
+      "The dog keeps barking and the handler doesn’t stop it. You can:",
+      [
+        "Ask that the dog leave, and offer to serve the person without it",
+        "Call the police right away",
+        "Charge a cleaning fee"
+      ],
+      0,
+      "A dog that’s out of control can be removed, but you must offer service without the dog."
+    ],
+    [
+      "Can you charge a pet fee for a service dog?",
+      [
+        "Yes, the same as pets",
+        "Only in hotels",
+        "No, but you can charge for real damage"
+      ],
+      2,
+      "Surcharges aren’t allowed. Actual damage can be billed like any customer."
+    ],
+    [
+      "The dog is a pit bull, and your city bans the breed. You can:",
+      [
+        "Refuse because of the breed",
+        "Judge the dog by its behavior, not its breed",
+        "Require a muzzle"
+      ],
+      1,
+      "Breed bans can’t be used to keep out a service dog."
+    ],
+    [
+      "A guide dog is leading a blind customer. Should you ask the two questions?",
+      [
+        "Yes, always",
+        "No, its job is obvious",
+        "Only if it has no vest"
+      ],
+      1,
+      "Don’t ask when the dog’s role is obvious."
+    ],
+    [
+      "Can a service dog go into your kitchen?",
+      [
+        "Yes, anywhere",
+        "No, only areas open to customers",
+        "Only if it’s small"
+      ],
+      1,
+      "Service dogs go where customers can go. Food prep areas stay off limits."
+    ],
+    [
+      "A manager wants the handler gone and suggests saying “we’re closing early.” Is that OK?",
+      [
+        "Yes, it avoids a fight",
+        "No, a made-up excuse is still discrimination",
+        "Only after 8 p.m."
+      ],
+      1,
+      "Using a false reason to remove someone because of their service dog is still discrimination."
+    ]
+  ],
+  "flow": {
+    "start": {
+      "q": "Is it obvious what the dog does for the person? For example, a guide dog leading someone who is blind, or a dog pulling a wheelchair.",
+      "yes": "control",
+      "no": "ask",
+      "note": null
+    },
+    "ask": {
+      "q": "Ask the two questions: “Is the dog a service animal required because of a disability?” and “What work or task has it been trained to perform?” Did they say yes and name a task?",
+      "yes": "control",
+      "no": "notsd",
+      "note": "Accept their answers. If they describe something the dog does, such as alerting or interrupting, that counts. They don’t need exact words. Don’t ask for papers, a vest, a demonstration, or details about the disability."
+    },
+    "control": {
+      "q": "Is the dog under control and housebroken? Look for lunging, repeated barking, jumping on people, or going to the bathroom inside.",
+      "yes": "welcome",
+      "no": "correct",
+      "note": null
+    },
+    "correct": {
+      "q": "Ask the handler to get the dog under control. Did that fix it?",
+      "yes": "welcome",
+      "no": "remove",
+      "note": null
+    },
+    "welcome": {
+      "end": "ok",
+      "text": "**Welcome them in.** Serve them like any other customer. Don’t charge a fee, seat them apart, or ask more questions. If another customer complains or is allergic, offer that customer a different spot."
+    },
+    "notsd": {
+      "end": "no",
+      "text": "**It isn’t a service dog under the ADA.** If they said it’s an emotional support or comfort animal, or said no to the first question, your normal pet policy applies. Some states also protect dogs in training, so check your state card. Say it kindly: “Thanks for telling me. Only service dogs can come inside, but I’m happy to help you another way.” Offer curbside, a patio if pets are allowed there, or to hold their order."
+    },
+    "remove": {
+      "end": "no",
+      "text": "**You may ask that the dog leave.** Say: “I’m sorry, the dog needs to step outside. We’re still happy to help you.” You must offer to serve the person without the dog, such as finishing the order or holding it while someone else watches the dog. Write down what the dog did."
+    }
+  },
+  "scripts": [
+    [
+      "Asking the two questions",
+      "“Welcome in! Quick question, is that a service dog required because of a disability? … And what task is it trained to do? Great, thanks. Enjoy your visit.”"
+    ],
+    [
+      "They say it’s an emotional support animal",
+      "“Thanks for letting me know. Our policy only allows trained service dogs inside, but I’d be glad to help you with curbside pickup or hold your order.”"
+    ],
+    [
+      "The dog is misbehaving",
+      "“Excuse me, I need to ask you to get your dog under control, please.” If it continues: “I’m sorry, the dog needs to step outside. We’re still happy to help you.”"
+    ],
+    [
+      "Another customer complains",
+      "“That’s a service animal, and the law allows it here. I’d be happy to move you to another table.”"
+    ],
+    [
+      "An employee is allergic or afraid",
+      "Have a different employee serve that customer. Don’t ask the handler to leave or wait outside."
+    ],
+    [
+      "You’re not sure what to do",
+      "“Give me just a moment, I’m going to check with my manager.” Then use the decision guide in this app. Don’t guess, and don’t make up a reason like “we’re closing.”"
+    ]
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "getdog": {
+    "title": "Getting a service dog",
+    "intro": "There’s no official application or registry. There are two main paths: a training program, or training your own dog.",
+    "cite": "Costs and wait times come from individual programs and are estimates.",
+    "sections": [
+      {
+        "eyebrow": "Step by step",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              "**Talk to your doctor or therapist.** Ask whether a dog trained for a specific task would help with your disability. You don’t need a doctor’s note for public access, but programs usually ask for one.",
+              "**Decide on a path.** A program places a fully trained dog. Owner training costs less but takes one to two years of steady work.",
+              "**Pick the tasks.** The dog must be trained to do something specific for your disability, not just provide comfort.",
+              "**Train for public manners.** The dog must be calm, quiet, housebroken, and ignore food, people, and other animals.",
+              "**Test your team.** Many trainers use the Assistance Dogs International Public Access Test as a benchmark. It isn’t legally required."
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Training programs",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Look for programs accredited by Assistance Dogs International (ADI) or, for guide dogs, the International Guide Dog Federation (IGDF)."
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Many nonprofit programs place dogs at little or no cost to the handler, though training can cost the program $50,000 or more per dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Buying a trained dog from a private trainer often costs $15,000 to $50,000."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Waits are often 6 to 12 months for guide dogs and up to 3 years or more for other service dogs."
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "url": "https://assistancedogsinternational.org/members/programs-search/",
+                "label": "Find an ADI program"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Training your own dog",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The ADA allows owner-trained service dogs. They have the same rights once trained."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Choose a dog with a calm, confident temperament, and have a vet check its health first."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "A professional trainer who works with service dogs can help with tasks and public manners."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "During training, the dog’s access depends on your state’s law. Check your state card on the Home tab."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Avoid these scams",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Online “registries” and “certifications.” There is no official registry, and these carry no legal weight."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Vests, ID cards, and certificates sold as proof. Anyone can buy them."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Instant “service dog letters” without a real evaluation."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Sellers promising a fully trained dog in weeks."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "etiquette": {
+    "title": "Service dog etiquette",
+    "intro": "For the public, coworkers, and parents.",
+    "cite": "",
+    "sections": [
+      {
+        "eyebrow": "Do",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Talk to the handler, not the dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Give the team space in aisles, lines, and doorways."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Keep your own dog on a short leash and away from the service dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "A service dog alone may mean its handler needs help. Look around for the person. If someone needs help, call 911. Don’t follow the dog into traffic or unsafe places."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Don’t",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Pet, call to, whistle at, or make eye contact with the dog without asking."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Offer food or treats."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Ask what the person’s disability is."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Take photos or video of the person without asking."
+              },
+              {
+                "mark": "cross",
+                "sym": "✕",
+                "text": "Assume someone is faking because you can’t see a disability."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Teaching kids",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Try: “That dog is working, like a doctor or a lifeguard. We say hi to the person, not the dog.”"
+          }
+        ]
+      },
+      {
+        "eyebrow": "It can be a crime",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many states make it a crime to interfere with, harass, or injure a service dog. Check the “Also protected” section on your state card."
+          }
+        ]
+      }
+    ]
+  },
+  "emergency": {
+    "title": "Medical emergencies",
+    "intro": "What to do if a handler collapses, has a seizure, or can’t respond.",
+    "cite": "DOJ ADA Service Animal FAQ, Q15 and Q16",
+    "sections": [
+      {
+        "eyebrow": "For staff and bystanders",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              "**Call 911.**",
+              "**Don’t pull the dog away.** It may be trained to lie next to the person, fetch medicine, or get help.",
+              "**Check for a medical ID** on the person’s phone, bracelet, or the dog’s vest. This app’s staff screen shows an emergency contact if the handler set one up.",
+              "**Tell responders** it’s a service dog."
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Ambulances and hospitals",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The Justice Department says the dog should generally ride in the ambulance. If it would get in the way of treatment, staff should arrange another way to get it to the hospital."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "If the patient can’t care for the dog, a family member or friend can. The hospital may board it only after giving the patient a chance to make arrangements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "For handlers",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Fill in the emergency section of your dog profile, so it shows on the staff screen."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Set up Medical ID on your phone so it works from the lock screen."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Put an emergency contact on the dog’s tag or vest."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "twodogs": {
+    "title": "Two service dogs",
+    "intro": "Some people use two dogs, for example one for mobility and one for medical alert.",
+    "cite": "DOJ ADA Service Animal FAQ, Q13",
+    "sections": [
+      {
+        "eyebrow": "The rule",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Generally, yes, a person may bring two service dogs if each is trained to do a task."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Staff may ask the two questions about each dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "If both dogs truly can’t fit, such as in a very small space, one may be asked to wait outside."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "veterans": {
+    "title": "Veterans with service dogs",
+    "intro": "",
+    "cite": "38 CFR §17.148",
+    "sections": [
+      {
+        "eyebrow": "VA benefits",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "VA helps veterans with vision, hearing, or substantial mobility disabilities when VA decides a dog is the best option. This includes mobility limits caused by a mental health condition. VA doesn’t pay for the dog itself."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "VA pays for a veterinary insurance policy, including premiums, copays, and deductibles, plus equipment the dog needs for its work and travel to get or replace the dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "VA doesn’t pay for food, grooming, boarding, or over-the-counter medicine."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The dog must come from a program accredited by ADI or the International Guide Dog Federation."
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "url": "https://www.prosthetics.va.gov/ServiceAndGuideDogs.asp",
+                "label": "VA Service and Guide Dogs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "PTSD",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The PAWS for Veterans Therapy Act started a 5-year pilot in 2022 where veterans with PTSD train service dogs, at five VA sites. It runs until about early 2027."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Need to talk now?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veterans Crisis Line: dial **988**, then press **1**. You can also text 838255."
+          }
+        ]
+      }
+    ]
+  },
+  "abroad": {
+    "title": "Traveling abroad",
+    "intro": "Rules change often. Check each country before every trip.",
+    "cite": "Checked September 2026 against CDC and USDA guidance.",
+    "sections": [
+      {
+        "eyebrow": "Coming back into the U.S.",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "All dogs, including service dogs, must be at least 6 months old and have a microchip."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "You need a CDC Dog Import Form receipt. It’s free, and airlines check it before boarding."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Dogs that were only in low-risk countries, such as Canada and Mexico, need the CDC form, a microchip, and a healthy look. Dogs coming from Mexico also need a screwworm certificate."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Dogs from high-risk rabies countries need more paperwork."
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "url": "https://www.cdc.gov/importation/dogs/index.html",
+                "label": "CDC dog travel rules"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Mexico",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "No health certificate is needed to enter Mexico, but officials inspect dogs on arrival."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Since August 3, 2026, dogs going to Mexico need a screwworm inspection certificate from a USDA-accredited vet, issued within 5 days before arrival."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "To come back from Mexico, your dog needs a screwworm certificate. A vet must inspect the dog within 5 days before travel. The vet must be a government vet or a Mexican vet authorized to sign for one. There is no service dog exception."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Canada",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Dogs 3 months and older need a rabies vaccination certificate."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Certified guide, hearing, and service dogs may not need rabies proof if you are the dog’s user. Owner-trained dogs may not count. Bring a rabies certificate anyway."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Everywhere else",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Look up the destination on USDA’s pet travel site. Some countries require months of lead time for rabies blood tests."
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "url": "https://www.aphis.usda.gov/pet-travel",
+                "label": "USDA pet travel by country"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "heat": {
+    "title": "Heat and paw safety",
+    "intro": "Especially for Arizona and other hot states.",
+    "cite": "WSU College of Veterinary Medicine; American Kennel Club",
+    "sections": [
+      {
+        "eyebrow": "Pavement gets hot fast",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "!",
+                "text": "When the air is 77°F, asphalt can reach about 125°F."
+              },
+              {
+                "mark": "tick",
+                "sym": "!",
+                "text": "At 86°F air, asphalt can reach about 135°F."
+              },
+              {
+                "mark": "tick",
+                "sym": "!",
+                "text": "Press the back of your hand to the pavement for 10 seconds. If it’s too hot for you, it’s too hot for paws."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Protect your dog",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Walk early in the morning or after sunset in summer."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Use dog boots and stay on grass or shade when you can."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Carry water and a bowl."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Never leave the dog in a parked car."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "You can take a sick or overheated dog off duty. Your health matters, but so does the dog’s."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Signs of heatstroke",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "cross",
+                "sym": "!",
+                "text": "Heavy panting, thick drool, bright red gums"
+              },
+              {
+                "mark": "cross",
+                "sym": "!",
+                "text": "Weakness, stumbling, vomiting, or collapse"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Move the dog to shade, wet it with cool (not ice) water, and get to a vet right away."
+          }
+        ]
+      }
+    ]
+  },
+  "retire": {
+    "title": "Retiring a service dog",
+    "intro": "Many service dogs work about 8 years. Some retire sooner.",
+    "cite": "",
+    "sections": [
+      {
+        "eyebrow": "Signs it’s time",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Slowing down, stiffness, or pain"
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Missing alerts or cues"
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Stress or reluctance in public"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "What changes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "A dog that no longer does its task is not a service animal under the ADA. It loses public access rights."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "In housing, a retired dog may fall under pet rules. If it still helps you, you can ask your landlord to keep it as an emotional support animal."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Many handlers keep their retired dog. Programs often help place it with family or a trusted home."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "Between dogs",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Programs often start matching a successor before a dog retires."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "If you train your own replacement, your state’s rules for dogs in training apply."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "VA may help veterans with a replacement dog."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "minors": {
+    "title": "Children and teens",
+    "intro": "A service dog can help a child as much as an adult.",
+    "cite": "DOJ ADA Service Animal FAQ Q27 · 28 CFR §35.136 · 14 CFR §382.3",
+    "sections": [
+      {
+        "eyebrow": "In public",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The ADA sets no minimum age for a service dog handler."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The child can handle the dog, or a parent or other adult with them can, as long as the dog stays under control."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Staff can ask the two questions of the child or the adult. They can’t ask about the child’s disability."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Airlines treat a parent traveling with a minor as the handler."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eyebrow": "At school",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Public schools and most private schools must allow a student’s service dog in class, on the bus, and on field trips. Schools run by religious organizations are exempt from the ADA."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The school may need to give the student some help handling the dog, such as help with a leash or a door, but staff don’t have to care for the dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "The Justice Department has taken action against schools that required families to hire or provide a separate adult handler."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Put the dog in the student’s IEP or 504 plan, so every teacher, aide, and bus driver knows the plan."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Tips for families",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Start public outings with short, calm trips."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Teach classmates the same rule as adults: talk to the child, not the dog."
+              },
+              {
+                "mark": "tick",
+                "sym": "✓",
+                "text": "Pack a small kit with water, waste bags, and a copy of the dog’s vaccination record for school."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

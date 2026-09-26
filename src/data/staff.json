@@ -1,0 +1,60 @@
+{
+  "en": {
+    "close": "← Close",
+    "bigger": "Larger text",
+    "normal": "Normal text",
+    "badge": "Service animal",
+    "h1": "This dog is a service animal protected by federal law.",
+    "mayask": "Under the Americans with Disabilities Act, you may ask only:",
+    "q1": "1. Is the dog required because of a disability?",
+    "q2": "2. What work or task has it been trained to perform?",
+    "maynot": "You may not:",
+    "list": [
+      "Ask for ID, papers, or a certificate, or require a vest. Federal law does not require one.",
+      "Ask about the person’s disability",
+      "Ask the dog to demonstrate its task",
+      "Charge a fee or seat us separately",
+      "Refuse service because of allergies or fear of dogs"
+    ],
+    "applies": "This applies to businesses open to the public and to state and local government services. Refusing service because of a service dog is disability discrimination.",
+    "remove": "The dog may be removed only if it is out of control and the handler does not take effective action, or if it is not housebroken.",
+    "airline": "Airlines follow the Air Carrier Access Act (14 CFR Part 382) and may require the DOT Service Animal form.",
+    "training": "{STATE} law also protects service dogs in training ({LAW}).",
+    "read": "Read aloud",
+    "stop": "Stop reading",
+    "dog": "Dog’s name",
+    "task": "Task",
+    "emerg": "If I can’t respond",
+    "emergDo": "Keep my dog with me and call 911.",
+    "contact": "Emergency contact"
+  },
+  "es": {
+    "close": "← Cerrar",
+    "bigger": "Letra más grande",
+    "normal": "Letra normal",
+    "badge": "Animal de servicio",
+    "h1": "Este perro es un animal de servicio protegido por la ley federal.",
+    "mayask": "Según la Ley de Estadounidenses con Discapacidades (ADA), usted solo puede preguntar:",
+    "q1": "1. ¿Se requiere el perro debido a una discapacidad?",
+    "q2": "2. ¿Qué trabajo o tarea está entrenado el perro para realizar?",
+    "maynot": "Usted no puede:",
+    "list": [
+      "Pedir identificación, papeles o un certificado, ni exigir un chaleco. La ley federal no lo exige.",
+      "Preguntar sobre la discapacidad de la persona",
+      "Pedir que el perro demuestre su tarea",
+      "Cobrar una tarifa ni sentarnos aparte",
+      "Negar el servicio por alergias o miedo a los perros"
+    ],
+    "applies": "Esto se aplica a los negocios abiertos al público y a los servicios de gobiernos estatales y locales. Negarle el servicio a alguien por tener un perro de servicio es discriminación por discapacidad.",
+    "remove": "Solo se puede pedir que el perro salga si está fuera de control y la persona no toma medidas eficaces para controlarlo, o si no está entrenado para hacer sus necesidades afuera.",
+    "airline": "Las aerolíneas siguen la Ley de Acceso a Transportistas Aéreos (14 CFR Parte 382) y pueden pedir el formulario del DOT para animales de servicio.",
+    "training": "La ley de {STATE} también protege a los perros de servicio en entrenamiento ({LAW}).",
+    "read": "Leer en voz alta",
+    "stop": "Dejar de leer",
+    "dog": "Nombre del perro",
+    "task": "Tarea",
+    "emerg": "Si no puedo responder",
+    "emergDo": "Mantenga a mi perro conmigo y llame al 911.",
+    "contact": "Contacto de emergencia"
+  }
+}
