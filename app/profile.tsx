@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, Alert, Image, Pressable, Switch, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import * as ImagePicker from 'expo-image-picker';
-import * as FileSystem from 'expo-file-system/legacy';
-import { useApp, Profile } from '../src/store';
+import { File, Paths } from 'expo-file-system';
+import { useApp, Profile, deletePhoto } from '../src/store';
 import { TASK_IDEAS } from '../src/data';
 import { useColors } from '../src/theme';
 import { Screen, Card, Eyebrow, H1, Muted, Field, Button, Chip } from '../src/components/ui';
@@ -23,12 +23,12 @@ export default function ProfileScreen() {
     try {
       const res = await ImagePicker.launchImageLibraryAsync({ mediaTypes: ['images'], allowsEditing: true, aspect: [1, 1], quality: 0.5 });
       if (res.canceled || !res.assets?.[0]?.uri) return;
-      const src = res.assets[0].uri;
-      const ext = (src.split('.').pop() || 'jpg').split('?')[0].toLowerCase();
-      const dest = `${FileSystem.documentDirectory}dog-photo-${Date.now()}.${ext}`;
-      await FileSystem.copyAsync({ from: src, to: dest });
-      if (p.photo && p.photo.startsWith(FileSystem.documentDirectory || '~')) FileSystem.deleteAsync(p.photo, { idempotent: true }).catch(() => {});
-      set('photo')(dest);
+      const src = new File(res.assets[0].uri);
+      const ext = (src.extension || '.jpg').replace(/^\./, '').toLowerCase() || 'jpg';
+      const dest = new File(Paths.document, `dog-photo-${Date.now()}.${ext}`);
+      await src.copy(dest);
+      if (p.photo) deletePhoto(p.photo);
+      set('photo')(dest.uri);
     } catch {
       Alert.alert('Couldn’t add the photo', 'Try a different picture.');
     }

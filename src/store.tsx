@@ -1,6 +1,18 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import * as FileSystem from 'expo-file-system/legacy';
+import { File, Paths } from 'expo-file-system';
+
+/** Deletes a saved dog photo, but only if it lives in this app's documents folder. */
+export function deletePhoto(uri?: string) {
+  if (!uri) return;
+  try {
+    if (!uri.startsWith(Paths.document.uri)) return;
+    const f = new File(uri);
+    if (f.exists) f.delete();
+  } catch {
+    // Nothing to clean up.
+  }
+}
 
 export type Role = 'handler' | 'business' | 'public';
 
@@ -83,7 +95,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     setS(p => ({ ...p, reports: [{ ...r, id: uid(), date: new Date().toISOString().slice(0, 10) }, ...p.reports] })), []);
   const wipe = useCallback(async () => {
     setS(p => {
-      if (p.profile.photo) FileSystem.deleteAsync(p.profile.photo, { idempotent: true }).catch(() => {});
+      deletePhoto(p.profile.photo);
       return { ...p, profile: {}, log: [], reports: [] };
     });
   }, []);

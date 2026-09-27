@@ -14,22 +14,36 @@ Version 1 has no accounts and no servers. Everything works offline, and personal
 
 ## What you need
 
-- A computer (Mac, Windows, or Linux) with **Node.js 20 or newer** ([nodejs.org](https://nodejs.org))
+- A computer with **Node.js 20.19.4 or newer** ([nodejs.org](https://nodejs.org)). To build for iPhone on your own Mac, you also need **Xcode 26.4 or newer**.
 - A free **Expo account** ([expo.dev](https://expo.dev/signup))
 - To publish: an **Apple Developer account** ($99/year) and a **Google Play Console account** ($25 one time)
-- To try it on your own phone: the free **Expo Go** app from the App Store or Google Play
 
-## First run (about 10 minutes)
+The app uses **Expo SDK 57** (React Native 0.86, React 19.2) and supports iOS 16.4 and newer.
+
+## First run
 
 ```bash
 git clone https://github.com/oasispatiocover-creator/access-ally-iq.git
 cd access-ally-iq
 npm install
-npx expo install --fix      # lines up every library with the installed Expo version
+npx expo install --fix      # lines up every library with the installed Expo SDK
+npx expo-doctor             # checks the project for problems
+```
+
+Then pick one way to open it on a phone.
+
+**Option A: a development build (recommended).** This is your own installable test version of the app, and it works on any iPhone or Android phone.
+
+```bash
+npm install -g eas-cli
+eas login
+eas build --profile development --platform ios       # or --platform android
 npx expo start
 ```
 
-Scan the QR code that appears with your phone's camera (iPhone) or the Expo Go app (Android). The app opens on your phone.
+Install the build from the link EAS gives you, open it, and it connects to your computer.
+
+**Option B: Expo Go on an iPhone (quickest to try).** Expo Go for SDK 57 is in the App Store. Sign in to the same Expo account in the terminal (`npx expo login`) and in the Expo Go app, then run `npx expo start` and scan the QR code with the iPhone camera.
 
 > **Note:** This code was written without being able to install the libraries, so it has never been run. Expect a round of small fixes on the first run. `npx expo install --fix` and `npx expo-doctor` catch most version problems. Every file passes a syntax and type check.
 
